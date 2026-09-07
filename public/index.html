@@ -55,7 +55,7 @@
 
 <style>
 #networkPanel{background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px;box-shadow:var(--shadow);display:block}
-#networkPanel h2{margin:0 0 8px;font-size:1.15rem}.net-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}.net-box{border:1px solid var(--line);border-radius:14px;padding:12px;background:#f8fbfd}.net-box strong{display:block;margin-bottom:8px}.net-row{display:flex;gap:8px;flex-wrap:wrap}.net-row input,.net-row select{flex:1;min-width:120px;padding:10px;border:1px solid var(--line);border-radius:10px}.net-btn{border:0;border-radius:10px;padding:10px 14px;font-weight:800;background:var(--navy);color:#fff}.net-btn.alt{background:var(--venecia)}.net-status{margin-top:10px;padding:9px 11px;border-radius:10px;background:#eef7fb;font-weight:700}.room-code{font-size:1.6rem;letter-spacing:.18em;font-weight:900}.net-hidden{display:none!important}
+#networkPanel h2{margin:0 0 8px;font-size:1.15rem}.net-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}.net-box{border:1px solid var(--line);border-radius:14px;padding:12px;background:#f8fbfd}.net-box strong{display:block;margin-bottom:8px}.net-row{display:flex;gap:8px;flex-wrap:wrap}.net-row input,.net-row select{flex:1;min-width:120px;padding:10px;border:1px solid var(--line);border-radius:10px}.net-btn{border:0;border-radius:10px;padding:10px 14px;font-weight:800;background:var(--navy);color:#fff}.net-btn.alt{background:var(--venecia)}.net-status{margin-top:10px;padding:9px 11px;border-radius:10px;background:#eef7fb;font-weight:700}.net-name{margin-bottom:10px}.net-name label{display:block;font-weight:800;font-size:.78rem;margin-bottom:5px}.net-name input{width:100%;box-sizing:border-box;padding:10px;border:1px solid var(--line);border-radius:10px}.net-start{margin-top:10px;width:100%;display:none}.net-players{margin-top:10px;display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:7px}.net-player{padding:7px 8px;border-radius:10px;background:#f7fafc;font-size:.72rem;font-weight:800}.net-player small{display:block;color:#708196;font-weight:700;margin-top:2px}.room-code{font-size:1.6rem;letter-spacing:.18em;font-weight:900}.net-hidden{display:none!important}
 @media(max-width:600px){#networkPanel{padding:12px}.net-row{flex-direction:column}.net-row input,.net-row select,.net-btn{width:100%}}
 </style>
 
@@ -82,6 +82,7 @@
 
 <section id="networkPanel" aria-label="Juego en red">
   <h2>🌐 Jugar en red</h2>
+  <div class="net-name"><label for="netName">Tu nombre</label><input id="netName" maxlength="24" placeholder="Escribe tu nombre" autocomplete="name"></div>
   <div class="net-grid">
     <div class="net-box">
       <strong>Crear partida</strong>
@@ -100,6 +101,8 @@
     </div>
   </div>
   <div class="net-status" id="netStatus">Conectando al servidor…</div>
+  <div class="net-players" id="netPlayers"></div>
+  <button class="net-btn alt net-start" id="netStart">▶ Iniciar partida</button>
 </section>
 
     <div id="playerView">
@@ -144,6 +147,7 @@
     } catch(error) {}
     const questionQueues={};
     let current=0, value=null, playerCount=2, gameStarted=false, awaitingMove=false, questionOpen=false, tokens=[];
+    function escapeHtml(text){return String(text??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
     function cell(r,c,cls=''){let x=document.createElement('div');x.className='cell '+cls;x.style.gridArea=`${r+1}/${c+1}`;board.append(x)}
     function makeBoard(){
       ['mantua-home','riese-home','venecia-home','treviso-home'].forEach(c=>{let h=document.createElement('div');h.className='home '+c;board.append(h)});
@@ -155,7 +159,7 @@
     function render(){
       board.querySelectorAll('.token').forEach(x=>x.remove());
       tokens.forEach(t=>{let [r,c]=spot(t),e=document.createElement('button');e.className=`token ${cfg[t.p].color} ${legal(t)?'selectable':''}`;e.style.left=`${(c+.5)/15*100}%`;e.style.top=`${(r+.5)/15*100}%`;e.setAttribute('aria-label',`${cfg[t.p].name}, ficha ${t.n+1}`);e.onclick=()=>move(t);board.append(e)});
-      turn.innerHTML=gameStarted?`Turno de <strong>${cfg[current].colorName}</strong>`:'<strong>Elige jugadores e inicia</strong>'; playersEl.innerHTML=cfg.slice(0,playerCount).map((p,i)=>`<div class="player ${gameStarted&&i===current?'active':''}" style="--player:var(--${p.color})"><i style="background:var(--${p.color})"></i>${p.colorName}</div>`).join(''); badge.textContent=`${playerCount} jugadores`; roll.disabled=!gameStarted || awaitingMove;
+      turn.innerHTML=gameStarted?`Turno de <strong>${cfg[current].colorName}</strong>`:'<strong>Esperando inicio</strong>'; const onlinePlayers=window.netPlayersData||[]; playersEl.innerHTML=cfg.slice(0,playerCount).map((p,i)=>{const pl=onlinePlayers.find(x=>x.team===i);const label=pl&&pl.name?pl.name:p.colorName;return `<div class="player ${gameStarted&&i===current?'active':''}" style="--player:var(--${p.color})"><i style="background:var(--${p.color})"></i>${p.colorName}<small style="display:block;font-size:.58rem;opacity:.75;margin-top:2px">${escapeHtml(label)}</small></div>`}).join(''); badge.textContent=`${playerCount} jugadores`; roll.disabled=!gameStarted || awaitingMove;
     }
     function captureAt(t){const at=spot(t);if(t.pos<52 && ![0,13,26,39].includes((cfg[t.p].start+t.pos)%52))tokens.forEach(o=>{if(o!==t&&o.p!==t.p&&o.pos>=0&&o.pos<52){let os=spot(o);if(os[0]===at[0]&&os[1]===at[1])o.pos=-1}})}
     function finishMove(t,six,correct=true){questionOpen=false;quiz.classList.remove('open');if(correct)captureAt(t);value=null;awaitingMove=false;if(t.pos===58&&correct)hint.textContent=`¡${cfg[t.p].colorName} llegó a Habilidad Matemática!`;else if(!correct)hint.textContent=`Respuesta incorrecta: ${cfg[t.p].colorName} vuelve a la casilla anterior.`;else hint.textContent=six?'Sacaste 6: vuelve a lanzar.':'Pasa el teléfono al siguiente color.';if(!six||!correct)current=(current+1)%playerCount;render()}
@@ -196,15 +200,20 @@
   const netCreate=document.getElementById('netCreate');
   const netJoin=document.getElementById('netJoin');
   const netJoinCode=document.getElementById('netJoinCode');
+  const netName=document.getElementById('netName');
+  const netPlayers=document.getElementById('netPlayers');
+  const netStart=document.getElementById('netStart');
   const netStatus=document.getElementById('netStatus');
   const netCreated=document.getElementById('netCreated');
   const netRoomCode=document.getElementById('netRoomCode');
-  let netMode=true, myTeam=null, roomCode=null, netStarted=false, pendingNetQuestion=null;
+  let netMode=true, myTeam=null, roomCode=null, netStarted=false, pendingNetQuestion=null, roomHost=null;
+  window.netPlayersData=[];
 
   // La partida en red usa exactamente el banco de preguntas que el administrador ya guarda.
   function questionPayload(){
     return {questionMapVersion:2, customCellQuestions, skillQuestions};
   }
+  function playerName(){const n=netName.value.trim().replace(/\s+/g,' ');if(!n){setStatus('Escribe tu nombre antes de crear o unirte.');netName.focus();return null;}return n.slice(0,24)}
   function setStatus(t){netStatus.textContent=t;}
   function showLocalSetup(show){
     const setup=document.querySelector('.setup');
@@ -245,36 +254,43 @@
     if(netMode) socket.emit('startGame');
     else newGame();
   };
+  netStart.onclick=function(){socket.emit('startGame')};
 
   netCreate.onclick=function(){
     const count=Number(netCount.value);
+    const name=playerName(); if(!name)return;
     netCreate.disabled=true;
-    socket.emit('createRoom',{playerCount:count,questions:questionPayload()});
+    socket.emit('createRoom',{playerCount:count,name,questions:questionPayload()});
   };
   netJoin.onclick=function(){
     const code=netJoinCode.value.trim().toUpperCase();
     if(!/^[A-Z0-9]{6}$/.test(code)){setStatus('Escribe un código de 6 caracteres.');return;}
+    const name=playerName(); if(!name)return;
     netJoin.disabled=true;
-    socket.emit('joinRoom',{code});
+    socket.emit('joinRoom',{code,name});
   };
 
   socket.on('connect',()=>setStatus('Servidor conectado. Crea una sala o únete con un código.'));
   socket.on('disconnect',()=>setStatus('Conexión perdida. Intentando reconectar…'));
   socket.on('roomCreated',d=>{
     roomCode=d.code;myTeam=d.team;playerCount=d.playerCount;netRoomCode.textContent=d.code;netCreated.classList.remove('net-hidden');
-    setStatus(`Sala creada. Eres ${cfg[myTeam].colorName}. Comparte el código ${d.code}.`);
+    setStatus(`Sala creada. Eres ${cfg[myTeam].colorName}. Comparte el código ${d.code}.`); netStart.style.display='block';
   });
   socket.on('joinedRoom',d=>{
     roomCode=d.code;myTeam=d.team;playerCount=d.playerCount;netCreated.classList.remove('net-hidden');netRoomCode.textContent=d.code;
-    setStatus(`Conectado como ${cfg[myTeam].colorName}. Espera a que inicie el anfitrión.`);
+    setStatus(`Conectado como ${cfg[myTeam].colorName}. Espera a que inicie el anfitrión.`); netStart.style.display='none';
   });
   socket.on('state',syncNetState);
   socket.on('roomInfo',d=>{
-    playerCount=d.playerCount;
-    const names=(d.players||[]).map(p=>cfg[p.team].colorName).join(', ');
-    setStatus(`Sala ${d.code}: ${names||'sin jugadores'}.`+(d.started?' Partida iniciada.':''));
-    if(d.host===socket.id){start.textContent='Iniciar partida';start.disabled=d.started;}
-    else start.disabled=true;
+    playerCount=d.playerCount; roomHost=d.host; window.netPlayersData=d.players||[];
+    netPlayers.innerHTML=(d.players||[]).map(p=>`<div class="net-player"><strong>${cfg[p.team].colorName}</strong><small>${escapeHtml(p.name||'Jugador')}</small></div>`).join('');
+    const ready=(d.players||[]).length===d.playerCount;
+    setStatus(`Sala ${d.code}: ${(d.players||[]).length}/${d.playerCount} jugadores.`+(d.started?' Partida iniciada.':ready?' Todos listos.':''));
+    const isHost=d.host===socket.id;
+    netStart.style.display=isHost&&!d.started?'block':'none';
+    netStart.disabled=!ready||d.started;
+    start.disabled=true;
+    render();
   });
   socket.on('question',q=>{
     pendingNetQuestion=q;
@@ -284,7 +300,7 @@
   });
   socket.on('message',m=>setStatus(m));
   socket.on('errorMessage',m=>{setStatus(m);netCreate.disabled=false;netJoin.disabled=false;});
-  socket.on('roomClosed',()=>{setStatus('La sala se cerró. Puedes crear otra partida.');netMode=true;netStarted=false;roomCode=null;myTeam=null;netCreate.disabled=false;netJoin.disabled=false;showLocalSetup(false);});
+  socket.on('roomClosed',()=>{setStatus('La sala se cerró. Puedes crear otra partida.');netMode=true;netStarted=false;roomCode=null;myTeam=null;roomHost=null;window.netPlayersData=[];netPlayers.innerHTML='';netStart.style.display='none';netCreate.disabled=false;netJoin.disabled=false;showLocalSetup(false);render();});
 
   // Cuando el servidor termina la pregunta, cierra el modal y actualiza el tablero.
   socket.on('questionResult',d=>{
