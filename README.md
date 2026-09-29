@@ -1,36 +1,28 @@
-# Ludo Matemático · Colegio San Pío X — Internet
+# Ludo Matemático San Pío X — Online + Administrador
 
-Versión en red de Ludo Matemático. La partida se sincroniza con Node.js + Socket.IO.
+- Juego online con salas y Socket.IO.
+- Administrador protegido con contraseña: `1234`.
+- Las preguntas editadas por el administrador se envían al servidor y se sincronizan con todos los jugadores conectados.
+- Las preguntas se guardan en `data/questions.json` durante la ejecución del servidor.
 
-## Publicar en Internet con Render
-
-1. Sube esta carpeta a un repositorio de GitHub.
-2. En Render elige **New → Web Service** y conecta el repositorio.
-3. Usa:
-   - Runtime: **Node**
-   - Build Command: `npm install`
-   - Start Command: `npm start`
-4. Render publicará una dirección `https://...onrender.com`.
-5. Comparte esa dirección con los jugadores.
-
-El archivo `render.yaml` ya contiene esta configuración.
-
-## Cómo jugar
-
-- Un jugador pulsa **Crear sala** y comparte el código.
-- Los demás abren la misma dirección desde cualquier lugar con Internet y pulsan **Unirse**.
-- Cuando estén todos los jugadores, el anfitrión inicia la partida.
-- El servidor sincroniza turnos, dado, movimientos, capturas y preguntas.
-
-## Prueba local
+## Ejecutar
 
 ```bash
 npm install
 npm start
 ```
 
-Luego abre `http://localhost:3000`.
+Abrir `http://localhost:3000`.
 
-## Importante
+### Importante sobre Render
+El archivo `data/questions.json` está en el sistema de archivos del servidor. En servicios con filesystem efímero, un reinicio/redeploy puede restaurar el archivo inicial. Para persistencia permanente conviene conectar una base de datos o almacenamiento persistente.
 
-Render admite conexiones WebSocket desde Internet, necesarias para la sincronización en tiempo real. El plan gratuito es adecuado para pruebas, pero puede suspender temporalmente el servicio después de inactividad.
+
+## Preguntas
+- Se conservan las 24 preguntas de las cuatro áreas: 6 por área, una por casilla blanca.
+- Las 4 preguntas de cada área que fueron creadas por los estudiantes están conservadas en sus respectivas casillas.
+- Habilidad Matemática tiene un banco independiente de 4 preguntas editables; en el juego se selecciona una al azar.
+- Administrador protegido con contraseña: `1234`.
+- Los cambios se sincronizan con los jugadores conectados.
+
+> Nota: en Render Free, el archivo `questions.json` se escribe durante la ejecución, pero el almacenamiento local no es permanente frente a todos los reinicios/redeploys. Para conservar cambios de forma permanente se debe conectar una base de datos o almacenamiento persistente.

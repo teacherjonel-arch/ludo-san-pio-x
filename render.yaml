@@ -1,8 +1,7 @@
 services:
   - type: web
     name: ludo-san-pio-x
-    runtime: node
-    plan: free
+    env: node
     buildCommand: npm install
     startCommand: npm start
-    healthCheckPath: /
+    autoDeploy: true
