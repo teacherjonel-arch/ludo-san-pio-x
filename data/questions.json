@@ -1,0 +1,1683 @@
+{
+  "questionMapVersion": 3,
+  "customCellQuestions": {
+    "0-1": [
+      {
+        "q": "Halla X 2x-4y=5 ∧ x+4y=4",
+        "a": [
+          "8",
+          "7",
+          "3",
+          "12"
+        ],
+        "ok": 2,
+        "image": ""
+      },
+      {
+        "q": "Que valores puede tomar x: Ix-2I=7",
+        "a": [
+          "-5 y 9",
+          "-3 y 6",
+          "-5 y 7",
+          "-3 y 8"
+        ],
+        "ok": 0,
+        "image": ""
+      },
+      {
+        "q": "Cual es el termino de independiente de F(x)=6x+8",
+        "a": [
+          "5",
+          "3",
+          "8",
+          "7"
+        ],
+        "ok": 2,
+        "image": ""
+      },
+      {
+        "q": "Si x = 3, ¿cuánto es x + 3?",
+        "a": [
+          "5",
+          "6",
+          "7",
+          "9"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto vale x si x + 3 = 10?",
+        "a": [
+          "8",
+          "7",
+          "10",
+          "12"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto vale x si 2x = 6?",
+        "a": [
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "ok": 1,
+        "image": ""
+      }
+    ],
+    "0-2": [
+      {
+        "q": "Halla X 2x-4y=5 ∧ x+4y=4",
+        "a": [
+          "8",
+          "7",
+          "3",
+          "12"
+        ],
+        "ok": 2,
+        "image": ""
+      },
+      {
+        "q": "Que valores puede tomar x: Ix-2I=7",
+        "a": [
+          "-5 y 9",
+          "-3 y 6",
+          "-5 y 7",
+          "-3 y 8"
+        ],
+        "ok": 0,
+        "image": ""
+      },
+      {
+        "q": "Cual es el termino de independiente de F(x)=6x+8",
+        "a": [
+          "5",
+          "3",
+          "8",
+          "7"
+        ],
+        "ok": 2,
+        "image": ""
+      },
+      {
+        "q": "Si x = 3, ¿cuánto es x + 3?",
+        "a": [
+          "5",
+          "6",
+          "7",
+          "9"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto vale x si x + 3 = 10?",
+        "a": [
+          "8",
+          "7",
+          "10",
+          "12"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto vale x si 2x = 6?",
+        "a": [
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "ok": 1,
+        "image": ""
+      }
+    ],
+    "0-3": [
+      {
+        "q": "Halla X 2x-4y=5 ∧ x+4y=4",
+        "a": [
+          "8",
+          "7",
+          "3",
+          "12"
+        ],
+        "ok": 2,
+        "image": ""
+      },
+      {
+        "q": "Que valores puede tomar x: Ix-2I=7",
+        "a": [
+          "-5 y 9",
+          "-3 y 6",
+          "-5 y 7",
+          "-3 y 8"
+        ],
+        "ok": 0,
+        "image": ""
+      },
+      {
+        "q": "Cual es el termino de independiente de F(x)=6x+8",
+        "a": [
+          "5",
+          "3",
+          "8",
+          "7"
+        ],
+        "ok": 2,
+        "image": ""
+      },
+      {
+        "q": "Si x = 3, ¿cuánto es x + 3?",
+        "a": [
+          "5",
+          "6",
+          "7",
+          "9"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto vale x si x + 3 = 10?",
+        "a": [
+          "8",
+          "7",
+          "10",
+          "12"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto vale x si 2x = 6?",
+        "a": [
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "ok": 1,
+        "image": ""
+      }
+    ],
+    "0-4": [
+      {
+        "q": "Halla X 2x-4y=5 ∧ x+4y=4",
+        "a": [
+          "8",
+          "7",
+          "3",
+          "12"
+        ],
+        "ok": 2,
+        "image": ""
+      },
+      {
+        "q": "Que valores puede tomar x: Ix-2I=7",
+        "a": [
+          "-5 y 9",
+          "-3 y 6",
+          "-5 y 7",
+          "-3 y 8"
+        ],
+        "ok": 0,
+        "image": ""
+      },
+      {
+        "q": "Cual es el termino de independiente de F(x)=6x+8",
+        "a": [
+          "5",
+          "3",
+          "8",
+          "7"
+        ],
+        "ok": 2,
+        "image": ""
+      },
+      {
+        "q": "Si x = 3, ¿cuánto es x + 3?",
+        "a": [
+          "5",
+          "6",
+          "7",
+          "9"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto vale x si x + 3 = 10?",
+        "a": [
+          "8",
+          "7",
+          "10",
+          "12"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto vale x si 2x = 6?",
+        "a": [
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "ok": 1,
+        "image": ""
+      }
+    ],
+    "0-5": [
+      {
+        "q": "Halla X 2x-4y=5 ∧ x+4y=4",
+        "a": [
+          "8",
+          "7",
+          "3",
+          "12"
+        ],
+        "ok": 2,
+        "image": ""
+      },
+      {
+        "q": "Que valores puede tomar x: Ix-2I=7",
+        "a": [
+          "-5 y 9",
+          "-3 y 6",
+          "-5 y 7",
+          "-3 y 8"
+        ],
+        "ok": 0,
+        "image": ""
+      },
+      {
+        "q": "Cual es el termino de independiente de F(x)=6x+8",
+        "a": [
+          "5",
+          "3",
+          "8",
+          "7"
+        ],
+        "ok": 2,
+        "image": ""
+      },
+      {
+        "q": "Si x = 3, ¿cuánto es x + 3?",
+        "a": [
+          "5",
+          "6",
+          "7",
+          "9"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto vale x si x + 3 = 10?",
+        "a": [
+          "8",
+          "7",
+          "10",
+          "12"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto vale x si 2x = 6?",
+        "a": [
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "ok": 1,
+        "image": ""
+      }
+    ],
+    "0-6": [
+      {
+        "q": "Halla X 2x-4y=5 ∧ x+4y=4",
+        "a": [
+          "8",
+          "7",
+          "3",
+          "12"
+        ],
+        "ok": 2,
+        "image": ""
+      },
+      {
+        "q": "Que valores puede tomar x: Ix-2I=7",
+        "a": [
+          "-5 y 9",
+          "-3 y 6",
+          "-5 y 7",
+          "-3 y 8"
+        ],
+        "ok": 0,
+        "image": ""
+      },
+      {
+        "q": "Cual es el termino de independiente de F(x)=6x+8",
+        "a": [
+          "5",
+          "3",
+          "8",
+          "7"
+        ],
+        "ok": 2,
+        "image": ""
+      },
+      {
+        "q": "Si x = 3, ¿cuánto es x + 3?",
+        "a": [
+          "5",
+          "6",
+          "7",
+          "9"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto vale x si x + 3 = 10?",
+        "a": [
+          "8",
+          "7",
+          "10",
+          "12"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto vale x si 2x = 6?",
+        "a": [
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "ok": 1,
+        "image": ""
+      }
+    ],
+    "1-8": [
+      {
+        "q": "Donde la siguiente sucesion de numeros 1,3,5,7¿Cual es lo suma de los 2 Siguientes numeros?",
+        "a": [
+          "12",
+          "14",
+          "16",
+          "20"
+        ],
+        "ok": 3,
+        "image": ""
+      },
+      {
+        "q": "2.Si, tengo 4 personas en una mesa circular. ¿De cuantas forma se pueden sentar?",
+        "a": [
+          "4",
+          "6",
+          "5",
+          "8"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "El el baile de la promocion hay 10 personas, los hombres y mujeres estan en relacion de 2 a 3 ¿Cuantas mujeres hay",
+        "a": [
+          "6",
+          "9",
+          "8",
+          "4"
+        ],
+        "ok": 0,
+        "image": ""
+      },
+      {
+        "q": "Si Sebastian visita a su abula cada 3 dias y va 5  al colegio dias",
+        "a": [
+          "15",
+          "10",
+          "11",
+          "30"
+        ],
+        "ok": 0,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto es 2 × 7?",
+        "a": [
+          "12",
+          "14",
+          "16",
+          "9"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "¿Cuál es la mitad de 20?",
+        "a": [
+          "9",
+          "10",
+          "11",
+          "20"
+        ],
+        "ok": 1,
+        "image": ""
+      }
+    ],
+    "1-9": [
+      {
+        "q": "Donde la siguiente sucesion de numeros 1,3,5,7¿Cual es lo suma de los 2 Siguientes numeros?",
+        "a": [
+          "12",
+          "14",
+          "16",
+          "20"
+        ],
+        "ok": 3,
+        "image": ""
+      },
+      {
+        "q": "2.Si, tengo 4 personas en una mesa circular. ¿De cuantas forma se pueden sentar?",
+        "a": [
+          "4",
+          "6",
+          "5",
+          "8"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "El el baile de la promocion hay 10 personas, los hombres y mujeres estan en relacion de 2 a 3 ¿Cuantas mujeres hay",
+        "a": [
+          "6",
+          "9",
+          "8",
+          "4"
+        ],
+        "ok": 0,
+        "image": ""
+      },
+      {
+        "q": "Si Sebastian visita a su abula cada 3 dias y va 5  al colegio dias",
+        "a": [
+          "15",
+          "10",
+          "11",
+          "30"
+        ],
+        "ok": 0,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto es 2 × 7?",
+        "a": [
+          "12",
+          "14",
+          "16",
+          "9"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "¿Cuál es la mitad de 20?",
+        "a": [
+          "9",
+          "10",
+          "11",
+          "20"
+        ],
+        "ok": 1,
+        "image": ""
+      }
+    ],
+    "1-10": [
+      {
+        "q": "Donde la siguiente sucesion de numeros 1,3,5,7¿Cual es lo suma de los 2 Siguientes numeros?",
+        "a": [
+          "12",
+          "14",
+          "16",
+          "20"
+        ],
+        "ok": 3,
+        "image": ""
+      },
+      {
+        "q": "2.Si, tengo 4 personas en una mesa circular. ¿De cuantas forma se pueden sentar?",
+        "a": [
+          "4",
+          "6",
+          "5",
+          "8"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "El el baile de la promocion hay 10 personas, los hombres y mujeres estan en relacion de 2 a 3 ¿Cuantas mujeres hay",
+        "a": [
+          "6",
+          "9",
+          "8",
+          "4"
+        ],
+        "ok": 0,
+        "image": ""
+      },
+      {
+        "q": "Si Sebastian visita a su abula cada 3 dias y va 5  al colegio dias",
+        "a": [
+          "15",
+          "10",
+          "11",
+          "30"
+        ],
+        "ok": 0,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto es 2 × 7?",
+        "a": [
+          "12",
+          "14",
+          "16",
+          "9"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "¿Cuál es la mitad de 20?",
+        "a": [
+          "9",
+          "10",
+          "11",
+          "20"
+        ],
+        "ok": 1,
+        "image": ""
+      }
+    ],
+    "1-11": [
+      {
+        "q": "Donde la siguiente sucesion de numeros 1,3,5,7¿Cual es lo suma de los 2 Siguientes numeros?",
+        "a": [
+          "12",
+          "14",
+          "16",
+          "20"
+        ],
+        "ok": 3,
+        "image": ""
+      },
+      {
+        "q": "2.Si, tengo 4 personas en una mesa circular. ¿De cuantas forma se pueden sentar?",
+        "a": [
+          "4",
+          "6",
+          "5",
+          "8"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "El el baile de la promocion hay 10 personas, los hombres y mujeres estan en relacion de 2 a 3 ¿Cuantas mujeres hay",
+        "a": [
+          "6",
+          "9",
+          "8",
+          "4"
+        ],
+        "ok": 0,
+        "image": ""
+      },
+      {
+        "q": "Si Sebastian visita a su abula cada 3 dias y va 5  al colegio dias",
+        "a": [
+          "15",
+          "10",
+          "11",
+          "30"
+        ],
+        "ok": 0,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto es 2 × 7?",
+        "a": [
+          "12",
+          "14",
+          "16",
+          "9"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "¿Cuál es la mitad de 20?",
+        "a": [
+          "9",
+          "10",
+          "11",
+          "20"
+        ],
+        "ok": 1,
+        "image": ""
+      }
+    ],
+    "1-12": [
+      {
+        "q": "Donde la siguiente sucesion de numeros 1,3,5,7¿Cual es lo suma de los 2 Siguientes numeros?",
+        "a": [
+          "12",
+          "14",
+          "16",
+          "20"
+        ],
+        "ok": 3,
+        "image": ""
+      },
+      {
+        "q": "2.Si, tengo 4 personas en una mesa circular. ¿De cuantas forma se pueden sentar?",
+        "a": [
+          "4",
+          "6",
+          "5",
+          "8"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "El el baile de la promocion hay 10 personas, los hombres y mujeres estan en relacion de 2 a 3 ¿Cuantas mujeres hay",
+        "a": [
+          "6",
+          "9",
+          "8",
+          "4"
+        ],
+        "ok": 0,
+        "image": ""
+      },
+      {
+        "q": "Si Sebastian visita a su abula cada 3 dias y va 5  al colegio dias",
+        "a": [
+          "15",
+          "10",
+          "11",
+          "30"
+        ],
+        "ok": 0,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto es 2 × 7?",
+        "a": [
+          "12",
+          "14",
+          "16",
+          "9"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "¿Cuál es la mitad de 20?",
+        "a": [
+          "9",
+          "10",
+          "11",
+          "20"
+        ],
+        "ok": 1,
+        "image": ""
+      }
+    ],
+    "1-13": [
+      {
+        "q": "Donde la siguiente sucesion de numeros 1,3,5,7¿Cual es lo suma de los 2 Siguientes numeros?",
+        "a": [
+          "12",
+          "14",
+          "16",
+          "20"
+        ],
+        "ok": 3,
+        "image": ""
+      },
+      {
+        "q": "2.Si, tengo 4 personas en una mesa circular. ¿De cuantas forma se pueden sentar?",
+        "a": [
+          "4",
+          "6",
+          "5",
+          "8"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "El el baile de la promocion hay 10 personas, los hombres y mujeres estan en relacion de 2 a 3 ¿Cuantas mujeres hay",
+        "a": [
+          "6",
+          "9",
+          "8",
+          "4"
+        ],
+        "ok": 0,
+        "image": ""
+      },
+      {
+        "q": "Si Sebastian visita a su abula cada 3 dias y va 5  al colegio dias",
+        "a": [
+          "15",
+          "10",
+          "11",
+          "30"
+        ],
+        "ok": 0,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto es 2 × 7?",
+        "a": [
+          "12",
+          "14",
+          "16",
+          "9"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "¿Cuál es la mitad de 20?",
+        "a": [
+          "9",
+          "10",
+          "11",
+          "20"
+        ],
+        "ok": 1,
+        "image": ""
+      }
+    ],
+    "2-15": [
+      {
+        "q": "Halle es el suplemento de 45°",
+        "a": [
+          "130°",
+          "135°",
+          "90°",
+          "180°"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto suman los ángulos de un triángulo?",
+        "a": [
+          "90°",
+          "180°",
+          "270°",
+          "360°"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "Si el lado de un cuadrado mide 5 cm, cuanto es su area",
+        "a": [
+          "12",
+          "50",
+          "15",
+          "25"
+        ],
+        "ok": 3,
+        "image": ""
+      },
+      {
+        "q": "Si el diametro de un circulo mide 10cm ¿cuanto mide su radio?",
+        "a": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "ok": 2,
+        "image": ""
+      },
+      {
+        "q": "¿Cuántos lados tiene un polígono de 6 lados?",
+        "a": [
+          "5",
+          "6",
+          "7",
+          "0"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto suman los ángulos de un triángulo?",
+        "a": [
+          "90°",
+          "180°",
+          "270°",
+          "360°"
+        ],
+        "ok": 1,
+        "image": ""
+      }
+    ],
+    "2-16": [
+      {
+        "q": "Halle es el suplemento de 45°",
+        "a": [
+          "130°",
+          "135°",
+          "90°",
+          "180°"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto suman los ángulos de un triángulo?",
+        "a": [
+          "90°",
+          "180°",
+          "270°",
+          "360°"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "Si el lado de un cuadrado mide 5 cm, cuanto es su area",
+        "a": [
+          "12",
+          "50",
+          "15",
+          "25"
+        ],
+        "ok": 3,
+        "image": ""
+      },
+      {
+        "q": "Si el diametro de un circulo mide 10cm ¿cuanto mide su radio?",
+        "a": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "ok": 2,
+        "image": ""
+      },
+      {
+        "q": "¿Cuántos lados tiene un polígono de 6 lados?",
+        "a": [
+          "5",
+          "6",
+          "7",
+          "0"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto suman los ángulos de un triángulo?",
+        "a": [
+          "90°",
+          "180°",
+          "270°",
+          "360°"
+        ],
+        "ok": 1,
+        "image": ""
+      }
+    ],
+    "2-17": [
+      {
+        "q": "Halle es el suplemento de 45°",
+        "a": [
+          "130°",
+          "135°",
+          "90°",
+          "180°"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto suman los ángulos de un triángulo?",
+        "a": [
+          "90°",
+          "180°",
+          "270°",
+          "360°"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "Si el lado de un cuadrado mide 5 cm, cuanto es su area",
+        "a": [
+          "12",
+          "50",
+          "15",
+          "25"
+        ],
+        "ok": 3,
+        "image": ""
+      },
+      {
+        "q": "Si el diametro de un circulo mide 10cm ¿cuanto mide su radio?",
+        "a": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "ok": 2,
+        "image": ""
+      },
+      {
+        "q": "¿Cuántos lados tiene un polígono de 6 lados?",
+        "a": [
+          "5",
+          "6",
+          "7",
+          "0"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto suman los ángulos de un triángulo?",
+        "a": [
+          "90°",
+          "180°",
+          "270°",
+          "360°"
+        ],
+        "ok": 1,
+        "image": ""
+      }
+    ],
+    "2-18": [
+      {
+        "q": "Halle es el suplemento de 45°",
+        "a": [
+          "130°",
+          "135°",
+          "90°",
+          "180°"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto suman los ángulos de un triángulo?",
+        "a": [
+          "90°",
+          "180°",
+          "270°",
+          "360°"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "Si el lado de un cuadrado mide 5 cm, cuanto es su area",
+        "a": [
+          "12",
+          "50",
+          "15",
+          "25"
+        ],
+        "ok": 3,
+        "image": ""
+      },
+      {
+        "q": "Si el diametro de un circulo mide 10cm ¿cuanto mide su radio?",
+        "a": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "ok": 2,
+        "image": ""
+      },
+      {
+        "q": "¿Cuántos lados tiene un polígono de 6 lados?",
+        "a": [
+          "5",
+          "6",
+          "7",
+          "0"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto suman los ángulos de un triángulo?",
+        "a": [
+          "90°",
+          "180°",
+          "270°",
+          "360°"
+        ],
+        "ok": 1,
+        "image": ""
+      }
+    ],
+    "2-19": [
+      {
+        "q": "Halle es el suplemento de 45°",
+        "a": [
+          "130°",
+          "135°",
+          "90°",
+          "180°"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto suman los ángulos de un triángulo?",
+        "a": [
+          "90°",
+          "180°",
+          "270°",
+          "360°"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "Si el lado de un cuadrado mide 5 cm, cuanto es su area",
+        "a": [
+          "12",
+          "50",
+          "15",
+          "25"
+        ],
+        "ok": 3,
+        "image": ""
+      },
+      {
+        "q": "Si el diametro de un circulo mide 10cm ¿cuanto mide su radio?",
+        "a": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "ok": 2,
+        "image": ""
+      },
+      {
+        "q": "¿Cuántos lados tiene un polígono de 6 lados?",
+        "a": [
+          "5",
+          "6",
+          "7",
+          "0"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto suman los ángulos de un triángulo?",
+        "a": [
+          "90°",
+          "180°",
+          "270°",
+          "360°"
+        ],
+        "ok": 1,
+        "image": ""
+      }
+    ],
+    "2-20": [
+      {
+        "q": "Halle es el suplemento de 45°",
+        "a": [
+          "130°",
+          "135°",
+          "90°",
+          "180°"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto suman los ángulos de un triángulo?",
+        "a": [
+          "90°",
+          "180°",
+          "270°",
+          "360°"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "Si el lado de un cuadrado mide 5 cm, cuanto es su area",
+        "a": [
+          "12",
+          "50",
+          "15",
+          "25"
+        ],
+        "ok": 3,
+        "image": ""
+      },
+      {
+        "q": "Si el diametro de un circulo mide 10cm ¿cuanto mide su radio?",
+        "a": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "ok": 2,
+        "image": ""
+      },
+      {
+        "q": "¿Cuántos lados tiene un polígono de 6 lados?",
+        "a": [
+          "5",
+          "6",
+          "7",
+          "0"
+        ],
+        "ok": 1,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto suman los ángulos de un triángulo?",
+        "a": [
+          "90°",
+          "180°",
+          "270°",
+          "360°"
+        ],
+        "ok": 1,
+        "image": ""
+      }
+    ],
+    "3-22": [
+      {
+        "q": "En que cuadrante la tangente es positiva",
+        "a": [
+          "I y 4",
+          "2 y 4",
+          "I  y 2",
+          "I y 3"
+        ],
+        "ok": 3,
+        "image": ""
+      },
+      {
+        "q": "Cuanto vale el complemento de 50°",
+        "a": [
+          "50°",
+          "60°",
+          "40°",
+          "10°"
+        ],
+        "ok": 2,
+        "image": ""
+      },
+      {
+        "q": "¿Cuál de estos es un ángulo recto?",
+        "a": [
+          "45°",
+          "60°",
+          "90°",
+          "180°"
+        ],
+        "ok": 2,
+        "image": ""
+      },
+      {
+        "q": "¿Cuántos grados tiene una vuelta completa?",
+        "a": [
+          "180°",
+          "270°",
+          "360°",
+          "90°"
+        ],
+        "ok": 3,
+        "image": ""
+      },
+      {
+        "q": "¿Cuál es el complemento de 60°?",
+        "a": [
+          "30°",
+          "120°",
+          "60°",
+          "360°"
+        ],
+        "ok": 0,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto vale cos(0°)?",
+        "a": [
+          "0",
+          "1",
+          "1/2",
+          "-1"
+        ],
+        "ok": 1,
+        "image": ""
+      }
+    ],
+    "3-23": [
+      {
+        "q": "En que cuadrante la tangente es positiva",
+        "a": [
+          "I y 4",
+          "2 y 4",
+          "I  y 2",
+          "I y 3"
+        ],
+        "ok": 3,
+        "image": ""
+      },
+      {
+        "q": "Cuanto vale el complemento de 50°",
+        "a": [
+          "50°",
+          "60°",
+          "40°",
+          "10°"
+        ],
+        "ok": 2,
+        "image": ""
+      },
+      {
+        "q": "¿Cuál de estos es un ángulo recto?",
+        "a": [
+          "45°",
+          "60°",
+          "90°",
+          "180°"
+        ],
+        "ok": 2,
+        "image": ""
+      },
+      {
+        "q": "¿Cuántos grados tiene una vuelta completa?",
+        "a": [
+          "180°",
+          "270°",
+          "360°",
+          "90°"
+        ],
+        "ok": 3,
+        "image": ""
+      },
+      {
+        "q": "¿Cuál es el complemento de 60°?",
+        "a": [
+          "30°",
+          "120°",
+          "60°",
+          "360°"
+        ],
+        "ok": 0,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto vale cos(0°)?",
+        "a": [
+          "0",
+          "1",
+          "1/2",
+          "-1"
+        ],
+        "ok": 1,
+        "image": ""
+      }
+    ],
+    "3-24": [
+      {
+        "q": "En que cuadrante la tangente es positiva",
+        "a": [
+          "I y 4",
+          "2 y 4",
+          "I  y 2",
+          "I y 3"
+        ],
+        "ok": 3,
+        "image": ""
+      },
+      {
+        "q": "Cuanto vale el complemento de 50°",
+        "a": [
+          "50°",
+          "60°",
+          "40°",
+          "10°"
+        ],
+        "ok": 2,
+        "image": ""
+      },
+      {
+        "q": "¿Cuál de estos es un ángulo recto?",
+        "a": [
+          "45°",
+          "60°",
+          "90°",
+          "180°"
+        ],
+        "ok": 2,
+        "image": ""
+      },
+      {
+        "q": "¿Cuántos grados tiene una vuelta completa?",
+        "a": [
+          "180°",
+          "270°",
+          "360°",
+          "90°"
+        ],
+        "ok": 3,
+        "image": ""
+      },
+      {
+        "q": "¿Cuál es el complemento de 60°?",
+        "a": [
+          "30°",
+          "120°",
+          "60°",
+          "360°"
+        ],
+        "ok": 0,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto vale cos(0°)?",
+        "a": [
+          "0",
+          "1",
+          "1/2",
+          "-1"
+        ],
+        "ok": 1,
+        "image": ""
+      }
+    ],
+    "3-25": [
+      {
+        "q": "En que cuadrante la tangente es positiva",
+        "a": [
+          "I y 4",
+          "2 y 4",
+          "I  y 2",
+          "I y 3"
+        ],
+        "ok": 3,
+        "image": ""
+      },
+      {
+        "q": "Cuanto vale el complemento de 50°",
+        "a": [
+          "50°",
+          "60°",
+          "40°",
+          "10°"
+        ],
+        "ok": 2,
+        "image": ""
+      },
+      {
+        "q": "¿Cuál de estos es un ángulo recto?",
+        "a": [
+          "45°",
+          "60°",
+          "90°",
+          "180°"
+        ],
+        "ok": 2,
+        "image": ""
+      },
+      {
+        "q": "¿Cuántos grados tiene una vuelta completa?",
+        "a": [
+          "180°",
+          "270°",
+          "360°",
+          "90°"
+        ],
+        "ok": 3,
+        "image": ""
+      },
+      {
+        "q": "¿Cuál es el complemento de 60°?",
+        "a": [
+          "30°",
+          "120°",
+          "60°",
+          "360°"
+        ],
+        "ok": 0,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto vale cos(0°)?",
+        "a": [
+          "0",
+          "1",
+          "1/2",
+          "-1"
+        ],
+        "ok": 1,
+        "image": ""
+      }
+    ],
+    "3-26": [
+      {
+        "q": "En que cuadrante la tangente es positiva",
+        "a": [
+          "I y 4",
+          "2 y 4",
+          "I  y 2",
+          "I y 3"
+        ],
+        "ok": 3,
+        "image": ""
+      },
+      {
+        "q": "Cuanto vale el complemento de 50°",
+        "a": [
+          "50°",
+          "60°",
+          "40°",
+          "10°"
+        ],
+        "ok": 2,
+        "image": ""
+      },
+      {
+        "q": "¿Cuál de estos es un ángulo recto?",
+        "a": [
+          "45°",
+          "60°",
+          "90°",
+          "180°"
+        ],
+        "ok": 2,
+        "image": ""
+      },
+      {
+        "q": "¿Cuántos grados tiene una vuelta completa?",
+        "a": [
+          "180°",
+          "270°",
+          "360°",
+          "90°"
+        ],
+        "ok": 3,
+        "image": ""
+      },
+      {
+        "q": "¿Cuál es el complemento de 60°?",
+        "a": [
+          "30°",
+          "120°",
+          "60°",
+          "360°"
+        ],
+        "ok": 0,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto vale cos(0°)?",
+        "a": [
+          "0",
+          "1",
+          "1/2",
+          "-1"
+        ],
+        "ok": 1,
+        "image": ""
+      }
+    ],
+    "3-27": [
+      {
+        "q": "En que cuadrante la tangente es positiva",
+        "a": [
+          "I y 4",
+          "2 y 4",
+          "I  y 2",
+          "I y 3"
+        ],
+        "ok": 3,
+        "image": ""
+      },
+      {
+        "q": "Cuanto vale el complemento de 50°",
+        "a": [
+          "50°",
+          "60°",
+          "40°",
+          "10°"
+        ],
+        "ok": 2,
+        "image": ""
+      },
+      {
+        "q": "¿Cuál de estos es un ángulo recto?",
+        "a": [
+          "45°",
+          "60°",
+          "90°",
+          "180°"
+        ],
+        "ok": 2,
+        "image": ""
+      },
+      {
+        "q": "¿Cuántos grados tiene una vuelta completa?",
+        "a": [
+          "180°",
+          "270°",
+          "360°",
+          "90°"
+        ],
+        "ok": 3,
+        "image": ""
+      },
+      {
+        "q": "¿Cuál es el complemento de 60°?",
+        "a": [
+          "30°",
+          "120°",
+          "60°",
+          "360°"
+        ],
+        "ok": 0,
+        "image": ""
+      },
+      {
+        "q": "¿Cuánto vale cos(0°)?",
+        "a": [
+          "0",
+          "1",
+          "1/2",
+          "-1"
+        ],
+        "ok": 1,
+        "image": ""
+      }
+    ]
+  },
+  "skillQuestions": [
+    {
+      "q": "Completa la secuencia: 2, 4, 6, __",
+      "a": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "ok": 1,
+      "image": ""
+    },
+    {
+      "q": "En uno fiesta hay un albuelo, una abuela, un esposo, dos padres y dos hijos y una esposa",
+      "a": [
+        "4",
+        "8",
+        "3",
+        "5"
+      ],
+      "ok": 3,
+      "image": ""
+    },
+    {
+      "q": "Que dia sera mañana, de antes de ayer del pasado mañana, si hay es lunes",
+      "a": [
+        "martes",
+        "miercoles",
+        "lunes",
+        "domingo"
+      ],
+      "ok": 0,
+      "image": ""
+    },
+    {
+      "q": "si 3 amigos se quieren sentar un una banca con 3 espacios, de cuantas formas se pueden sentar",
+      "a": [
+        "7",
+        "6",
+        "4",
+        "9"
+      ],
+      "ok": 1,
+      "image": ""
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "ludo-5toa-olivos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ludo Matemático en línea - 5to A Olivos",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}

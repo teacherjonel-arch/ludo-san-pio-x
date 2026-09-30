@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: ludo-5toa-olivos
+    runtime: node
+    buildCommand: npm install
+    startCommand: node server.js
